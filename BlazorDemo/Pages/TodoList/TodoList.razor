@@ -1,0 +1,40 @@
+@page "/todo"
+@if (todos != null)
+
+// @bind directive is similar to Angular's ngModel
+{
+    <h3>Todo (@todos.Count(todo => !todo.IsDone))</h3>
+    <div class="bg-dark p-2 d-flex justify-content-start align-items-center">
+        <input placeholder="Something todo" @bind="_newTodo" />
+        <div class="mx-2"></div>
+        <button class="btn btn-success" @onclick="AddTodo">Add todo</button>
+    </div>
+  
+
+
+    <ul class="my-list pl-0">
+        @* foreach can also be used for template loops, but here we need the index *@
+        @for (int i = 0; i < todos.Count(); i++)
+        {
+            // we need to capture the loop variable in latest blazor
+            // see "https://ericlippert.com/2009/11/12/closing-over-the-loop-variable-considered-harmful-part-one" for reference
+            int index = i;
+            <li @ref=list[todos[index].Name] 
+                 class="my-2 p-2 @((index == hoveredElementIndex) ? "bg-secondary" : "")"
+                 @onmouseover="@(() => MouseOver(list[todos[index].Name], index))"
+                 @onmouseout="@(() => MouseOut(index))">
+                <div class="d-flex form-group">
+                    <button class="btn btn-danger" title="delete todo" @onclick="(() => DeleteToto(index, todos[index].Name))">
+                        <span class="oi oi-trash"></span>
+                    </button>
+                    <div class="mx-2"></div>
+                    <input class="w-25 form-control" @bind="@todos[index].Name"/>
+                    <div class="mx-2"></div>
+                    <input type="checkbox" @bind="@todos[index].IsDone"/>
+                </div>
+            </li>
+        }
+    </ul> 
+}
+
+

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Drink a beer",
+    "isDone": false
+  },
+  {
+    "name": "Eat a cookie",
+    "isDone": false
+  },
+  {
+    "name": "Order a pizza",
+    "isDone": false
+  }
+]
