@@ -53,7 +53,7 @@
       "downloadDependencies": [
         {
           "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-          "version": "[5.0.0, 5.0.0]"
+          "version": "[5.0.1, 5.0.1]"
         }
       ],
       "frameworkReferences": {
@@ -61,7 +61,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/Users/maximilianboth/.dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
     }
   },
   "runtimes": {

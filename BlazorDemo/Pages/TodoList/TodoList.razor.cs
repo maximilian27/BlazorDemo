@@ -46,7 +46,7 @@ namespace BlazorDemo.Pages.TodoList
         private async Task DeleteToto(int index, string elem) 
         {
             await JS.InvokeAsync<string>("console.log", elem);
-
+            //manually remove element from dictionary
             list.Remove(elem);
             // "deleteTodo" JS method can be found in /wwwroot/js/helpers.js
             todos = await JS.InvokeAsync<IList<Todo>>("deleteTodo", todos, index);

@@ -4,7 +4,11 @@
     <projectFile>BlazorDemo/BlazorDemo.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="293bbbf2-bf32-42b7-9801-f06a07f2bd1b" name="Default Changelist" comment="" />
+    <list default="true" id="293bbbf2-bf32-42b7-9801-f06a07f2bd1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlazorDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlazorDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorDemo/Pages/TodoList/TodoList.razor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorDemo/Pages/TodoList/TodoList.razor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlazorDemo/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BlazorDemo/obj/project.packagespec.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,8 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -49,12 +55,13 @@
         <option value="$PROJECT_DIR$/BlazorDemo/wwwroot/index.html" />
         <option value="$PROJECT_DIR$/BlazorDemo/Shared/NavMenu.razor" />
         <option value="$PROJECT_DIR$/BlazorDemo/Pages/TodoList/TodoList.razor" />
-        <option value="$PROJECT_DIR$/BlazorDemo/Pages/TodoList/TodoList.razor.cs" />
         <option value="$PROJECT_DIR$/BlazorDemo/wwwroot/js/helpers.js" />
+        <option value="$PROJECT_DIR$/BlazorDemo/Pages/TodoList/TodoList.razor.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1lSvTaMuZW6w9jSfIAdFtBwe5JI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -115,8 +122,17 @@
       <updated>1607603317991</updated>
       <workItem from="1607603324064" duration="481000" />
       <workItem from="1607603858952" duration="755000" />
-      <workItem from="1607607543821" duration="25090000" />
+      <workItem from="1607607543821" duration="26328000" />
+      <workItem from="1608043120862" duration="649000" />
     </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1607705754814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607705754814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +142,8 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1227" y="-93" key="EditFileWatcherDialog" timestamp="1607618527772">
@@ -153,6 +171,10 @@
     </state>
     <state x="-1372" y="-239" key="SettingsEditor/0.23.1680.1027/-1920.-368.1920.980@-1920.-368.1920.980" timestamp="1607618556824" />
     <state x="-1372" y="-229" key="SettingsEditor/0.23.1680.960/-1920.-368.1920.1057@-1920.-368.1920.1057" timestamp="1607705599053" />
+    <state x="-1281" y="-151" key="Vcs.Push.Dialog.v2" timestamp="1607705778922">
+      <screen x="-1920" y="-368" width="1920" height="1057" />
+    </state>
+    <state x="-1281" y="-151" key="Vcs.Push.Dialog.v2/0.23.1680.960/-1920.-368.1920.1057@-1920.-368.1920.1057" timestamp="1607705778922" />
     <state x="-1218" y="-170" width="672" height="629" key="search.everywhere.popup" timestamp="1607618638666">
       <screen x="-1920" y="-368" width="1920" height="980" />
     </state>
