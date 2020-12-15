@@ -19,7 +19,7 @@ namespace BlazorDemo.Pages.TodoList
         // private ElementReference list, we use a dictionary in order to store the references;
         private Dictionary<string, ElementReference> list = new Dictionary<string, ElementReference>();
         private string _newTodo;
-        private int hoveredElementIndex = -1;
+        private int _hoveredElementIndex = -1;
         
         // fetch data 
         protected override async Task OnInitializedAsync()
@@ -54,14 +54,14 @@ namespace BlazorDemo.Pages.TodoList
         
         private async void MouseOver(ElementReference reference, int index)
         {
-            hoveredElementIndex = index;
+            _hoveredElementIndex = index;
             await JS.InvokeVoidAsync("mouseoverHandler", reference);
         }
 
         private void MouseOut(int index)
         {
             // await JS.InvokeVoidAsync("console.log", hoveredElementIndex);
-            hoveredElementIndex = -1;
+            _hoveredElementIndex = -1;
         }
         
         public class Todo
